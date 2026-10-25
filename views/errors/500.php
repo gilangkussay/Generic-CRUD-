@@ -1,0 +1,1 @@
+<div class="error-page"><div class="error-code">500</div><h1>Terjadi kesalahan</h1><p>Permintaan belum bisa diproses. Periksa konfigurasi dan log PHP jika masalah berlanjut.</p><a class="btn btn-primary" href="<?= e(url(auth_user() ? 'dashboard' : 'login')) ?>">Kembali</a></div>

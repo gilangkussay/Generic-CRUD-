@@ -1,0 +1,1 @@
+<div class="error-page"><div class="error-code">419</div><h1>Formulir kedaluwarsa</h1><p>Token keamanan tidak valid. Muat ulang halaman dan coba lagi.</p><a class="btn btn-primary" href="<?= e(url('dashboard')) ?>">Kembali</a></div>

@@ -1,0 +1,14 @@
+# Secrets and local configuration
+.env
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Runtime outputs
+*.log
+/storage/
+/tmp/

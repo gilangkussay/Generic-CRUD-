@@ -1,0 +1,1 @@
+<div class="error-page"><div class="error-code">405</div><h1>Metode tidak diizinkan</h1><p>Aksi ini harus dikirim menggunakan metode POST.</p><a class="btn btn-primary" href="<?= e(url('records')) ?>">Kembali ke data</a></div>

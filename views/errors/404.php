@@ -1,0 +1,1 @@
+<div class="error-page"><div class="error-code">404</div><h1>Halaman tidak ditemukan</h1><p>Alamat halaman yang diminta tidak tersedia.</p><a class="btn btn-primary" href="<?= e(url(auth_user() ? 'dashboard' : 'login')) ?>">Kembali</a></div>

@@ -1,0 +1,12 @@
+Options -Indexes
+
+<FilesMatch "^\.(?!well-known)">
+    Require all denied
+</FilesMatch>
+
+RewriteEngine On
+RewriteRule ^(app|config|database|tests|views)/ - [F,L,NC]
+
+<Files "bootstrap.php">
+    Require all denied
+</Files>
